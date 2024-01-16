@@ -47,8 +47,10 @@ public class Main {
         for (int k = 0; k < i; k++) {
             // If the value is already in the array, reassign it and recheck all array
             if (array[i] == array[k]) {
-                array[i] = valoreRandom(min, max); // Assign another random value to array[i]
-                k = -1; // Restart the check
+                // Assign another random value to array[i]
+                array[i] = valoreRandom(min, max); 
+                // Restart the check
+                k = -1; 
             }
         }
     }
