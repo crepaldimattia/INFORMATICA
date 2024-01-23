@@ -61,24 +61,37 @@ public class Main {
 
     //method characteristics Random
     private static void Random() {
+        ////variable declaration
+        String r1, r2;
         int giocatore1, giocatore2;
         Random casuale1 = new Random();
+        Scanner nome1 = new Scanner(System.in);
 
+        //output
         System.out.println("SFIDA TRA DUE GIOCATORI");
-
+        //I take the name as input of player 1
+        System.out.println("Quel è il tuo nome? ");
+        r1=nome1.nextLine();
+        //random+output
         giocatore1 = casuale1.nextInt(0, 6) + 1;
-        System.out.println("GIOCATORE 1: " + giocatore1);
+        System.out.println(r1+ "=" + giocatore1);
+
+
 
         Random casuale2 = new Random();
-
+        Scanner nome2=new Scanner(System.in);
+        //I take the name as input of player 2
+        System.out.println("Qual è il tuo nome? ");
+        r2=nome2.nextLine();
+        ////random+output
         giocatore2 = casuale2.nextInt(0, 6) + 1;
-        System.out.println("GIOCATORE 2: " + giocatore2);
+        System.out.println(r2+ "=" + giocatore2);
 
-
+        //result
         if (giocatore1 > giocatore2) {
-            System.out.println("HA VINTO IL GIOCATORE 1!");
+            System.out.println("IL VINCITORE E': " +r1);
         } else if (giocatore1 < giocatore2) {
-            System.out.println("HA VINTO IL GIOCATORE 2!");
+            System.out.println("IL VINCITORE E': " +r2);
         } else if (giocatore1 == giocatore2) {
             System.out.println("PARITA'!");
         }
@@ -86,23 +99,37 @@ public class Main {
 
     //method characteristics Random2
     private static void Random2() {
+        //declaration of variabiles
+        String r3;
         int giocatore3, giocatorePC;
+
         Random casuale3 = new Random();
+        Scanner nome3=new Scanner(System.in);
+        //output
         System.out.println("SFIDA CONTRO IL COMPUTER");
         giocatore3 = casuale3.nextInt(0, 6) + 1;
-        System.out.println("GIOCATORE: " + giocatore3);
+
+        //I take the name as input of player
+        System.out.println("Qual è il tuo nome? ");
+        r3=nome3.nextLine();
+        //result player
+        System.out.println(r3+ "=" + giocatore3);
 
 
         Random PC = new Random();
+        //random number of PC
         giocatorePC = PC.nextInt(0, 6) + 1;
-        System.out.println("PC: " + giocatorePC);
+        System.out.println("Computer: " + giocatorePC);
 
+        //result
         if (giocatore3 > giocatorePC) {
-            System.out.println("HAI VINTO!");
+            System.out.println(r3+ ", hai vinto!");
         } else if (giocatore3 < giocatorePC) {
-            System.out.println("HA VINTO IL PC!");
+            System.out.println("HA VINTO IL COMPUTER!");
         } else if (giocatore3 == giocatorePC) {
             System.out.println("PARITA'!");
         }
     }
+
+
 }
