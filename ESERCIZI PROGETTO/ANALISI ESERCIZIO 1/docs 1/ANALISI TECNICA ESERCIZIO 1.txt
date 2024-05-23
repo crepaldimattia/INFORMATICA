@@ -1,0 +1,124 @@
+ANALISI TECNICA PROGETTO VODAFONE
+
+
+CLASSE MAIN
+SCOPO CLASSE MAIN: consente all'utente di eseguire diverse operazioni sui contatti. Include funzionalità per inserire, visualizzare, cercare, modificare, cancellare contatti, oltre a ricaricare il saldo telefonico, effettuare chiamate e ordinare i contatti. Inoltre, prevede la possibilità di salvare e caricare i dati su file.
+
+Metodi utilizzati:
+
+leggiPersona:
+scopo: Legge i dettagli di una persona e restituisce un oggetto Contatto.
+variabili:
+ Sitel: Un booleano che indica se si sta leggendo il numero di telefono.
+keyboard: Uno scanner per l’input da tastiera
+	
+
+ricerca:
+scopo: Verifica se un dato contatto è presente nell'array di contatti.
+variabili:
+gestore: L’array di contatti da esaminare
+contatto: il contatto da cercare
+contrattiVenduti: il numero di contatti presenti nell’array
+
+RicercaIndex:
+scopo: Restituisce l'indice di un dato contatto nell'array di contatti.
+variabili:
+gestore: l’array di contatti in cui cercare
+ricerca: il contatto da cercare
+contrattiVenduti: il numero di contatti presenti nell’array
+
+visualizza:
+scopo: Visualizza i dettagli di tutti i contatti nell'array.
+variabili:
+gestore: l’array di contatti da visualizzare
+contrattiVenduti: il numero di contatti presenti nell’array
+
+visualizzaNascosti:
+scopo: Visualizza i dettagli dei contatti nascosti.
+variabili:
+nascosti: l’array di contatti nascosti da visualizzare
+contrattiVendutiNascosti: il numero di contatti nascosti presenti nell’array
+cancellazione:
+scopo: Cancella un contatto dall'array di contatti.
+variabili: 
+gestore: l’array di contatti da cui cancellare
+posizione: l’indice del contatto da cancellare
+contrattiVenduti: il numero di contatti presenti nell’array
+
+saldoTelefonico:
+scopo: Aggiorna il saldo telefonico di un contatto.
+variabili: 
+gestore: l’array di contatti in cui aggiornare il saldo
+saldoInserito: il saldo da aggiungere al contatto
+contrattiVenduti: il numero di contatti presenti nell’array
+keyboard: uno scanner per l’input da tastiera
+
+telefona:
+scopo: Effettua una chiamata telefonica e aggiorna il saldo del contatto.
+variabili:
+keyboard: uno scanner per l’input da tastiera
+contrattiVenduti: il numero di contatti presenti nell’array
+contatti: l’array di contatti su cui effettuare la chiamata
+
+
+selectionSort
+scopo: Ordina l'array di contatti utilizzando l'algoritmo Selection Sort.
+variabili:
+array: l’array di contatti da ordinare
+lunghezza: la lunghezza dell’array
+
+insertionSort
+scopo: ordina l’array di contatti utilizzando l'algoritmo Inserion Sort
+variabili:
+array: L'array di contatti da ordinare.
+lunghezza: La lunghezza dell'array.
+
+bubbleSort
+scopo: ordina l’array di contatti utilizzando l’algoritmo Bubble Sort
+variabili: 
+array: l’array di contatti da ordinare
+lunghezza: la lunghezza dell’array
+
+scriviFile
+scopo: scrivere i dettagli dei contatti su un file
+variabili:
+fileName: il nome del file in cui scrivere
+contatti: l’array di contatti da scrivere sul file
+numeroContatti: il numero di contatti da scrivere sul file
+
+leggiFile
+scopo: legge i dettagli dei contatti da un file e li carica in un array
+variabili:
+fileName: il nome del file da cui leggere
+gestore: l’array di contatti in cui caricare i dati letti dal file
+contaElementi: il numero di contatti già presenti nell’array
+
+CLASSE CONTATTO
+SCOPO CLASSE CONTATTO: è progettata per rappresentare un contatto con vari attributi personali e di contratto. Fornisce metodi per visualizzare queste informazioni in formati leggibili e strutturati (formato leggibile e CSV). Gli attributi pubblici permettono un accesso diretto, mentre i metodi forniti (commentati e non) indicano possibili espansioni per una gestione più completa e sicura dei dati del contatto.
+
+Dichiarazione delle variabili per la persona:
+nome: memorizza il nome del contatto
+cognome: memorizza il cognome del contatto
+telefono: memorizza il numero di telefono del contatto
+tipo: memorizza il tipo di contratto associato al contatto. 
+tipoContatto: enumeratore collegato al tipo, che può avere i valori: abitazione, cellulare, aziendale
+saldo: memorizza il saldo associato al contatto
+
+Metodi utilizzati:
+stampa
+scopo: Restituire una rappresentazione formattata e leggibile delle informazioni del contatto.
+toString
+scopo: Restituire una rappresentazione delle informazioni del contatto in formato CSV
+
+CLASSE UTILITY
+SCOPO CLASSE UTILITY: questa classe ha lo scopo di fornire una serie di metodi statici di utilità che facilitano operazioni comuni in un'applicazione console, migliorando l'interazione con l'utente e semplificando il codice principale dell'applicazione. 
+
+Metodi utilizzati:
+CleScr:
+scopo: pulire lo schermo della console 
+
+Wait:
+scopo: Mettere in pausa l'esecuzione del programma per un determinato numero di secondi.
+
+menu:
+scopo: Visualizzare un menu interattivo all'utente, consentirgli di selezionare un'opzione e restituire la scelta dell'utente.

@@ -1,0 +1,19 @@
+ANALISI REQUISTI PROGETTO VODAFONE
+
+Per il funzionamento di questo progetto, oltre al Main, ho usato altre 2 classi:
+Contatto;
+utility (all’interno del package tools);
+
+CLASSE Contatto
+SCOPO: è progettata per rappresentare e gestire i dati di un contatto in un'applicazione, permettendo di memorizzare, visualizzare e serializzare le informazioni relative a un contatto personale o aziendale.
+
+All’interno di questa classe si trova:
+dichiarazione dell’enumeratore per la tipologia del numero che inserirà l’utente
+dichiarazione delle variabili per la persona
+metodi stampa, toString
+
+CLASSE utility:
+SCOPO: ha lo scopo di fornire una raccolta di metodi statici di utilità che possono essere utilizzati per eseguire operazioni comuni come pulire lo schermo della console, mettere in pausa l'esecuzione del programma per un determinato periodo di tempo e gestire un menu interattivo.
+
+All’interno di questa classe si trova:
+-metodi per il menù, wait, ClrScr

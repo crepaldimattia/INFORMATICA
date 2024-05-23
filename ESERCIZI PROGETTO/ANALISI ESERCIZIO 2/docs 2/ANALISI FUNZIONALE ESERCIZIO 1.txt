@@ -1,0 +1,9 @@
+ANALISI FUNZIONALE ESERCIZIO 2
+
+Lo scopo di questo esercizio è quello di richiedere l'implementazione di un algoritmo che ordini in modo crescente solo i numeri pari all'interno di un array di numeri interi positivi, mantenendo inalterati gli elementi dispari e l'ultimo elemento dell'array (che può essere pari o dispari).
+
+Requisiti funzionali:
+-L'utente inserisce il numero di elementi che vuole mettere poi nell'array
+-Se non inserisce un valore compreso gtra 10 e 11, il programma richiede il reinserimento del valore
+-Il programma chiederà di inserire il numero. Questo si ripete per il numero di volte che l'utente ha inserito precedentemente
+-Il programma ordinerà i numeri come chiede l'esercizio, facendolo vedere in output

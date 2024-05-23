@@ -1,0 +1,20 @@
+ANALISI TECNICA EZSERCIZIO 2
+
+L'obiettivo dell'esercizio è ordinare in modo crescente solo i numeri pari presenti in un array, mantenendo inalterati i numeri dispari e l'ultimo elemento (che può essere pari o dispari).
+
+Metodi utilizzati:
+MAIN:
+scopo:  Gestisce l'interazione con l'utente per l'inserimento della lunghezza dell'array e dei suoi elementi. 
+variabili:
+lunghezza: intero che rappresenta la lunghezza dell'array inserito dall'utente (compresa tra 10 e 11).
+keyboard: oggetto di tipo Scanner utilizzato per leggere l'input da tastiera.
+arr: array di interi di lunghezza "lunghezza", che contiene gli elementi inseriti dall'utente.
+
+ordinaPari:
+scopo: si occupa di ordinare in ordine crescente solo i numeri pari presenti nell'array passato come argomento, lasciando invariati i numeri dispari e l'ultimo elemento dell'array.
+variabili:
+arr: array di interi passato come argomento, che contiene i numeri da ordinare.
+n: intero che rappresenta la lunghezza dell'array arr.
+pari: array temporaneo di interi che memorizza i numeri pari estratti dall'array originale.
+countPari: intero che conta quanti numeri pari sono stati trovati e memorizzati nell'array pari.
+pariIndex: intero utilizzato per reinserire i numeri pari ordinati nell'array originale.

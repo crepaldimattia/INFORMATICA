@@ -1,0 +1,54 @@
+ANALISI FUNZIONALE PROGETTO VODAFONE
+
+Il software è un sistema di gestione della rubrica telefonica che consente all'utente di eseguire diverse operazioni sui contatti. Include funzionalità per inserire, visualizzare, cercare, modificare, cancellare contatti, oltre a ricaricare il saldo telefonico, effettuare chiamate e ordinare i contatti. Inoltre, prevede la possibilità di salvare e caricare i dati su file.
+
+Requisiti Funzionali:
+
+INSERIMENTO DI UN CONTATTO:
+L'utente può inserire un nuovo contatto specificando nome, cognome, numero di telefono e tipo di contratto (abitazione, cellulare, aziendale).
+L'utente può scegliere se il contatto deve essere nascosto o visibile.
+Se il contatto è nascosto, viene richiesta una password per visualizzarlo in seguito.
+
+VISUALIZZAZIONE DEI CONTATTI:
+L'utente può visualizzare i contatti visibili e, con la corretta password, anche i contatti nascosti.
+La visualizzazione dei contatti nascosti richiede la password.
+
+RICERCA DI UN CONTATTO:
+L'utente può cercare un contatto per nome e cognome sia tra i contatti visibili che tra quelli nascosti.
+La ricerca tra i contatti nascosti richiede la password.
+
+RICERCA DI UN NUMERO TELEFONICO:
+L'utente può cercare e visualizzare il numero telefonico di un contatto specifico, sia tra i contatti visibili che tra quelli nascosti.
+La ricerca tra i contatti nascosti richiede la password.
+
+MODIFICA DI UN CONTATTO:
+L'utente può modificare il numero telefonico di un contatto esistente.
+La modifica di un contatto nascosto richiede la password.
+
+CANCELLAZIONE DI UN CONTATTO:
+L'utente può cancellare un contatto esistente, sia visibile che nascosto.
+La cancellazione di un contatto nascosto richiede la password.
+
+CARICA SALDO TELEFONICO:
+L'utente può caricare il saldo telefonico su un contatto esistente.
+Il caricamento del saldo su un contatto nascosto richiede la password.
+
+TELEFONA:
+L'utente può effettuare una chiamata a un contatto specifico, decrementando il saldo del contatto.
+La chiamata a un contatto nascosto richiede la password.
+
+ORDINAMENTO DEI CONTATTI:
+L'utente può ordinare i contatti visibili e nascosti per cognome e nome , scegliendo tra i metodi di ordinamento: Selection sort, Insertion Sort e Bubble Sort.
+L'ordinamento dei contatti nascosti richiede la password.
+
+SALVA SU FILE
+L'utente può salvare i contatti visibili e nascosti su file.
+Il salvataggio dei contatti nascosti richiede la password.
+
+CARICA DA FILE
+L'utente può caricare i contatti da un file salvato precedentemente.
+
+FINE
+Termina l’esecuzione del programma
+
+

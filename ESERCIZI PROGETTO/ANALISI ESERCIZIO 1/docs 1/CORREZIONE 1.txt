@@ -1,0 +1,5 @@
+Rispetto all'esercizio fatto in classe, ho eseguito queste correzioni:
+-migliorato l'analisi funzionale
+-migliorato l'analisi tecnica
+-completato la scrittura del codice
+-eseguito l'analisi dei requisiti

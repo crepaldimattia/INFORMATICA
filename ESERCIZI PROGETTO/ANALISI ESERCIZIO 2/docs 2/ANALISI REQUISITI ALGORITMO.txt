@@ -1,0 +1,6 @@
+ANALISI REQUIAITI ESERCIZIO 2
+
+Per la realizzazione di questo progetto ho utilizzato una sola classe: Main.
+Lo scopo di questa classe è quello di gestire l'input da parte dell'utente e di orchestrare l'esecuzione del programma per ordinare gli elementi pari di un array di numeri interi. 
+La classe interagisce con l'utente per ottenere la dimensione dell'array e i suoi elementi, quindi utilizza il metodo `ordinaPari` per ordinare gli elementi pari dell'array in modo 
+crescente. Infine, stampa l'array ordinato.
